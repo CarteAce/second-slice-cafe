@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Second Slice Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigaton -->
+    <header class="topbar">
+      <img class="logoImg" src="Images/secondslicelogo.png" alt="logo">
+      <nav class="primary-menu">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+      
+    
+      <!-- home button -->
+    <div class="home">
+    
+        <!-- hero img -->
+        <img src="Images/image1.jpg" class="heroIMG">
+        <div class="text"> </div>
+        <!-- https://unsplash.com/photos/NM1eTOwEz7A -->
+        <div class="homeDesc">
+          <h3 class="homeHeader"> Located in the heart of the Northcote community </h3>
+            
+          <p>Open since 2015</p>
+          <h4 class="opening-times">Open daily 7:00am - 3:00pm</h4>
+          <div class="text"></div>
+        </div>
+    </div>
+    
+    <!-- about -->
+    <div class="info" id="about">
+        <img src="Images/image2.jpg" class="aboutIMG">
+        <!-- <img src="Images/brooke-lark-V4MBq8kue3U-unsplash.jpg" class="aboutIMG2" alt=""> -->
+        <div class="desctext">
+          <p>We provide a zero waste policy with no plastic and use only organic</p>
+          <p>locally sourced ingredients.</p>
+          <br>
+          <p>At Second Slice aim to provide warm filling meals while spreading</p>
+          <p>awareness about clean food and sustainability.</p>
+        </div>
+        <div class="block1"></div>
+      </div>
+      <div class="text1"></div>
+      
+
+    <!-- <div class="box1-colour"></div> -->
+
+    <!-- Photo by <a href="https://unsplash.com/@marcusloke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcus Loke</a> on <a href="https://unsplash.com/s/photos/cafe-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
+
+    <!-- menu -->
+    <div class="menu">
+      <div class="menuheader">
+      </div>
+        <img id="menu" src="Images/maddi-bazzocco-786K4OK_Dfo-unsplash.jpg" alt="">
+      <button class="menubtn" onclick="window.open(src='Images/secondslicemenu.jpg', '_blank')"><h2>MENU</h2></button>
+      <div class="block"></div>
+    </div>
+
+
+    <!-- gallery -->
+    
+    <h3 class="galleryHead">Latest in our Feed</h3>
+
+    <style>
+        html,
+        body {
+          height: 100%;
+        }
+  
+        .swiper {
+          width: 80%;
+          height: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          height: calc((100% - 50px) / 2);;
+  
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+      </style>
+
+    <div class="swiper mySwiper" id="gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/ben-kolde-FFqNATH27EM-unsplash.jpg" alt="">
+            </div>
+            <!--Kolde,B. 2018. Reproduced from Unsplash. https://unsplash.com/photos/FFqNATH27EM -->
+        
+          <div class="swiper-slide">
+            <img src="images/montatip-lilitsanong-HMIrv2BrZ6Q-unsplash.jpg" alt="">
+            </div>
+            <!--Lilitsanong M. 2021. Reproduced from Unsplash. https://unsplash.com/photos/HMIrv2BrZ6Q -->
+        
+          <div class="swiper-slide">
+            <img src="images/najla-cam-q2za4CiSKRg-unsplash.jpg" alt="">  
+            </div>
+            <!--Cam,N. 2020. Reproduced from Unsplash. https://unsplash.com/photos/q2za4CiSKRg -->
+      
+          <div class="swiper-slide">
+            <img src="images/pariwat-pannium-K7y6zn8U714-unsplash.jpg" alt="">
+            </div>
+            <!--Pannium,P. 2021. Reproduced from Unsplash. https://unsplash.com/photos/K7y6zn8U714 -->
+        
+          <div class="swiper-slide">
+            <img src="images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg" alt="">        
+          </div>
+            <!--Crossland,K. 2019. Reproduced from Unsplash. https://unsplash.com/photos/ZZxmc66SjfM -->
+        
+          <div class="swiper-slide">
+              <img src="images/grace-hazell-ZZ7uqhM7Njs-unsplash.jpg" alt="">
+              </div>
+              <!--Hazell,G. 2021. Reproduced from Unsplash. https://unsplash.com/photos/ZZ7uqhM7Njs -->
+
+          <div class="swiper-slide">
+            <img src="images/tyler-coleman-FtWQhwpe1qc-unsplash.jpg" alt="">
+          </div>
+            <!--Coleman,T. 2018. Reproduced from Unsplash. https://unsplash.com/photos/FtWQhwpe1qc -->
+
+          <div class="swiper-slide">
+            <img src="images/jen-p-FoG8lotg7AA-unsplash.jpg" alt="">
+          </div>
+            <!--P,Jen. 2018. Reproduced from Unsplash. https://unsplash.com/photos/FoG8lotg7AA -->
+
+          <div class="swiper-slide">
+            <img src="images/imaad-whd-RADGM45S47I-unsplash.jpg" alt="">
+          </div>
+            <!--Whd,I. 2021. Reproduced from Unsplash. https://unsplash.com/photos/RADGM45S47I -->
+
+          <div class="swiper-slide">
+            <img src="images/brooke-lark-V4MBq8kue3U-unsplash.jpg" alt="">
+          </div>
+            <!--Bazzocco,M. 2019. Reproduced from Unsplash. https://unsplash.com/photos/j3gz0KReZbA -->
+        
+        </div>
+        <div class="swiper-pagination" id="contact"></div>
+      </div>
+
+    <!-- contact -->
+    <h2 class="contactHead">Contact</h2>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+    
+        <label for="lname">Contact Details</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last email or number...">
+    
+        <label for="subject">Enquiry</label>
+        <textarea id="subject" name="subject" placeholder="Send a message..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <h4>Email us: secondslice@info.com.au</h4>
+      <h4>Call us: +61450425057</h4>
+      <sl-icon name="instagram"></sl-icon>
+      <sl-icon name="facebook"></sl-icon>
+    </div>
+
+
+
+   
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          grid: {
+            rows: 2 
+          },
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+          }
+        });
+      </script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

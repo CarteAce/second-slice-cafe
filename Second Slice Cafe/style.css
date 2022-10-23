@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+/* START */
+
+h1 {
+  font-size: 24px;
+}
+
+
+/* nav */
+
+.topbar{
+
+  position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0em;
+    height: 50px;
+    padding-bottom: 11em;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    /* border-bottom: 2px solid black; */
+  }
+
+.primary-menu {
+    display: flex;
+    transition: all 0.6s cubic-bezier(.4,.08,0,1.02);
+  }
+  
+  .topbar a {
+    color: #999;
+    text-decoration: none;
+    margin: 2em; 
+    margin-top:5em; 
+    margin-right: 5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.2s;
+  }
+  
+  .topbar a:hover {
+    color: pink;
+  }
+  
+.logoImg {
+    height: 150px;
+    position: fixed;
+    left: 3em;
+    margin-top: 1em;
+    z-index: 2;
+  }
+
+
+/*body*/
+.heroIMG {
+    width: 70%;
+    margin-top: 23em;
+    /* height: 700px; */
+    margin-left: -6em;
+    transform: rotate(90deg);
+}    
+
+.homeDesc{
+    text-align: left;
+    margin-left: 58em;
+    font-size: 14px;
+    margin-top: -40em;
+    color: #999;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.05em;
+  } 
+
+.homeDesc h3{
+  color: black;
+}
+
+.opening-times{
+  margin-top: 15em;
+}
+
+/* about */
+.info {
+    display: flex;
+}    
+
+.aboutIMG {
+    width: 35%;
+    right: 6em;
+    margin-top: 15em;
+    display: flex;
+    position: absolute;
+    transform: scaleX(-1);
+} 
+
+/* .aboutIMG2 {
+    position: absolute;
+    width: 13%;
+    left: 20em;
+    margin-top: 546px;
+}     */
+
+.desctext {
+    margin-top: 35em;
+    margin-left: 8em;
+    position: absolute;
+    margin-bottom: 10em;
+}
+
+/* menu */
+.menu{
+  position: relative;
+}
+
+.menu img{
+  width: 80%;
+  margin-top: 45em;
+  align-items: center;
+  margin-left: 9em;
+  opacity: 60%;  
+}
+
+.menubtn{
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  position: absolute;
+  top: 80em;
+  right: 45%;
+}
+
+.block{
+  height: 20em;
+}
+
+.block1{
+  height: 20em;
+}
+
+.menubtn:hover{
+  background-color: #d3d3d3;
+}
+
+button h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0.5em;
+}
+
+/* gallery */
+
+.galleryHead{
+  margin-left: 8.5em;
+  margin-top: -5em;
+}
+
+.swiper{
+margin-top: 0px;
+}
+
+.mySwiper{
+  z-index: 0; 
+}
+
+.swiper-slide img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.contactHead{
+  margin-top: 12%;
+  margin-left: 8.5em;
+  position: absolute;
+  left: 5vw;
+}
+
+.container{
+  width: 60%;
+  border-radius: 5px;
+  position: relative;
+  top: 250px;
+  left: 22%;
+  padding-bottom: 10%;
+  margin-top: -10px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 16px 40px;
+  border-color: black;
+  border-radius: 100px;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+input[type=submit]:hover {
+  background-color: #F9F9F9;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container label{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.footer{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+  font-size: 12px;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #999;
+}
+
+  /* Laptop L 4K (2560px) --------------------------------*/
+  @media only screen and (max-width:2560px){
+    /* home */
+    .homeDesc{
+      margin-left: 110em;
+    }
+    
+    /* about */
+    .desctext{
+      margin-left: 30em;
+      margin-top: 50em;
+    }
+
+    /* menu */
+    .menu{
+      margin-top: 40em;
+      margin-left: 6.5%;
+    }
+
+    .menubtn{
+      top: 100em;
+      left: 75em;
+    }
+
+    /* gallery */
+    .galleryHead{
+      margin-left: 15em;
+    }
+
+    .swiper-slide img{
+      width: 550px;
+      height: 550px;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+    /* contact */
+    .contactHead{
+      margin-top: 5em;
+    }
+  }
+
+  /* Laptop (1440px) --------------------------------*/
+  @media only screen and (max-width:1440px){
+    /* home */
+    .homeDesc{
+      margin-left: 60em;
+    }
+    
+    /* about */
+    .desctext{
+      margin-left: 10em;
+      margin-top: 35em;
+    }
+
+    /* menu */
+    .menu{
+      margin-top: 5em;
+      margin-left: 0%;
+    }
+
+    .menubtn{
+      top: 80em;
+      left: 49em;
+    }
+
+    /* gallery */
+    .galleryHead{
+      margin-left: 8em;
+    }
+
+    .swiper-slide img{
+      width: 350px;
+      height: 350px;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+    /* contact */
+    .contactHead{
+      margin-top: 7em;
+    }
+  }
+
+  /* Laptop (1024px) --------------------------------*/
+  @media only screen and (max-width:1024px){
+    /* home */
+    .homeDesc{
+      margin-left: 50em;
+      font-size: 12px;
+    }
+    
+    /* about */
+    .desctext{
+      margin-left: 8em;
+      margin-top: 35em;
+      font-size: 12px;
+    }
+
+    /* menu */
+    .menu{
+      margin-top: -15em;
+      margin-left: -4em;
+    }
+
+    .menubtn{
+      top: 75em;
+      left: 38em;
+    }
+
+    /* gallery */
+    .galleryHead{
+      margin-left: 5em;
+    }
+
+    .swiper-slide img{
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+    /* contact */
+    .contactHead{
+      margin-top: 7em;
+      margin-left: 5em;
+    }
+  }
+
+  /* Tablet (768px) --------------------------------*/
+  @media only screen and (max-width:768px){
+    /* home */
+    .homeDesc{
+      margin-left: -10em;
+      font-size: 12px;
+    }
+
+    .heroIMG{
+      margin-top: -50em;
+    }
+    
+    /* about */
+    .desctext{
+      margin-left: 4em;
+      margin-top: 150em;
+      font-size: 12px;
+    }
+
+    /* menu */
+    .menu{
+      margin-top: -15em;
+      margin-left: -4em;
+    }
+
+    .menubtn{
+      top: 60em;
+      left: 30em;
+    }
+
+    /* gallery */
+    .galleryHead{
+      margin-left: 5em;
+    }
+
+    .swiper-slide img{
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+    /* contact */
+    .contactHead{
+      margin-top: 7em;
+      margin-left: 5em;
+    }
+  }
+
+  /* Mobile L (425px) --------------------------------*/
+  @media only screen and (max-width:425px){
+    /* home */
+    .homeDesc{
+      margin-right: 100em;
+      font-size: 12px;
+    }
+
+    .heroIMG{
+      margin-top: -50em;
+    }
+    
+    /* about */
+    .desctext{
+      margin-left: 4em;
+      margin-top: 150em;
+      font-size: 12px;
+    }
+
+    /* menu */
+    .menu{
+      margin-top: -15em;
+      margin-left: -4em;
+    }
+
+    .menubtn{
+      top: 60em;
+      left: 30em;
+    }
+
+    /* gallery */
+    .galleryHead{
+      margin-left: 5em;
+    }
+
+    .swiper-slide img{
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+    /* contact */
+    .contactHead{
+      margin-top: 7em;
+      margin-left: 5em;
+    }
+  }
+
+  /* https://coolors.co/000000-666666-dd8e8a-faf6db-adffe0-ffffff */
